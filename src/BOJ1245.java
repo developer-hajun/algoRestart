@@ -1,7 +1,11 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.Queue;
+import java.util.StringTokenizer;
 
-public class Main {
+public class BOJ1245 {
     static int[][] board;
     static int n, m;
     static int[] dy = {-1, 1, 0, 0, -1, -1, 1, 1};
