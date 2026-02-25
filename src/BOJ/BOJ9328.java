@@ -1,8 +1,10 @@
+package BOJ;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class BOJ9328 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
